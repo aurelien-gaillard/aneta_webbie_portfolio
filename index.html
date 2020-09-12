@@ -13,10 +13,10 @@
         <nav>
             <ol>
                 <li><a class="menu" href="#">hOMe</a></li>
-                <li><a class="menu" href="#">skills</a></li>
-                <li><a class="menu" href="#">Portfolio</a></li>
-                <li><a class="menu" href="#">about me</a></li>
-                <li><a class="menu" href="#">contact</a></li>
+                <li><a class="menu" href="#skills">skills</a></li>
+                <li><a class="menu" href="#portfolio">Portfolio</a></li>
+                <li><a class="menu" href="#about_me">about me</a></li>
+                <li><a class="menu" href="#contact">contact</a></li>
             </ol>
         </nav>
     </header>
@@ -49,7 +49,7 @@
             <div class="text"><p>We deploy your product and now your website is ready to get the traction. Get ouot there and grow your audience.</p></div>
         </div>
     </div>
-    <div class="my_skills">
+    <div id="skills" class="my_skills">
         <h2>MY SKILLS</h2>
         <div class="skills_table">
             <div class="skill">
@@ -86,7 +86,7 @@
             </div>
         </div>
     </div>
-    <div class="my_portfolio">
+    <div id="portfolio" class="my_portfolio">
         <h2>MY PORTFOLIO</h2>
         <div class="portfolio">
             <div class="item">
@@ -121,7 +121,7 @@
             </div>
         </div>
     </div>
-    <div class="about_me">
+    <div id="about_me" class="about_me">
         <h2>ABOUT ME</h2>
         <div class="main_about">
             <div class="photo"></div>
@@ -138,13 +138,49 @@
         </div>
     </div>
     <div class="find_me_here">
-        gith
+        <h3>FIND ME HERE</h3>
+        <div class="logos">
+            <div class="item"><a href="https://github.com/aurelien-gaillard/aneta_webbie_portfolio"><img src="/img/github-icon-lgrey.svg" alt=""></a></div>
+            <div class="item"><img src="/img/linkedin-icon-lgrey.svg" alt=""></div>
+            <div class="item"><img src="/img/instagram-lgrey.svg" alt=""></div>
+        </div>
     </div>
-    <div class="contact_me">
-        formulaire
+    <div id="contact" class="contact_me">
+        <h2>CONTACT ME</h2>
+        <form action="post">
+            <div class="row">
+                <input type="text" name="first_name" placeholder="First Name *" required>
+                <input type="text" name="last_name" placeholder="Last Name *" required>
+            </div>
+            <div class="row">
+                <input type="text" name="email" placeholder="Email *" required>
+                <input type="text" name="phone" placeholder="Phone">
+            </div>
+            <div class="row">
+                <label for="message">My message *</label>
+            </div>
+            <div class="row">
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <div class="row">
+                <input type="button" value="Send my message" />
+            </div>
+        </form>
     </div>
     <footer>
-        Nice to meet you
+        <div class="greetings">
+            <div class="bar"></div>
+            <div class="text">NICE TO MEET YOU!</div>
+            <div class="bar"></div>
+        </div>
+        <div class="logos">
+            <div class="item"><a href="https://github.com/aurelien-gaillard/aneta_webbie_portfolio"><img src="/img/github-icon-dgrey.svg" alt=""></a></div>
+            <div class="item"><img src="/img/linkedin-icon-dgrey.svg" alt=""></div>
+            <div class="item"><img src="/img/instagram-dgrey.svg" alt=""></div>
+        </div>
+        <div class="copyright">
+            <p><strong>Copyright @Aneta Webbie 2018</strong></p>
+        </div>
     </footer>
 </body>
 </html>

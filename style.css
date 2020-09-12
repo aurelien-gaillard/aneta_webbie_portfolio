@@ -281,3 +281,108 @@ li a:hover {
     width: 50%;
 }
 
+.find_me_here {
+    background-color: #232323;
+    color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.find_me_here h3 {
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+.logos {
+    display: flex;
+}
+
+.logos .item {
+    margin: 3em;
+}
+.logos .item img{
+    width: 5em;
+}
+
+.contact_me {
+    background-color: #54be90;
+    color: #ebebeb;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form .row {
+    display: flex;
+    width: 90%;
+}
+input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid white;
+    margin: 0.7em;
+    padding: 0.8em 0.1em;
+    background-color: #54be90;
+}
+input::placeholder {
+    color: #ebebeb;
+    font-size: 1.2em;
+}
+
+label {
+    font-size: 1.2em;
+    margin: .5em;
+}
+textarea {
+    width: 100%;
+    height: 8em;
+    border-radius: 0.5em;
+    border: 0;
+}
+
+input[type=button] {
+    color: #ebebeb;
+    background-color: #232323;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 1em 0;
+    border: 0;
+    border-radius: 0.3em;
+}
+
+footer {
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 0;
+}
+
+.greetings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greetings .bar {
+    width: 20vw;
+    height: 0.5em;
+    background-color: #54be90;
+}
+
+.greetings .text {
+    font-size: 3em;
+    font-weight: 900;
+    margin: 0.4em;
+}
+
+footer .logos .item {
+    margin: 1em;
+}
+footer .logos .item img{
+    width: 3em;
+}
