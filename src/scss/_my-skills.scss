@@ -23,27 +23,27 @@
     align-items: center;
     width: 6em;
     height: 2em;
-    background-color: #444444;
-    color: #ebebeb;
+    background-color: $dark-grey;
+    color: $light-grey;
 }
 
 .bar_green80, .bar_green70, .bar_green60, .bar_green50 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    color: #444444;
+    color: $dark-grey;
     width: 20em;
     height: 2em;  
 }
 .bar_green80 {
-    background: linear-gradient(90deg, #54be90 0%,#54be90 80%,#ebebeb 80%,#ebebeb 100%);
+    background: linear-gradient(90deg, #54be90 0%,#54be90 80%,$light-grey 80%,$light-grey 100%);
 }
 .bar_green70 {
-    background: linear-gradient(90deg, #54be90 0%,#54be90 70%,#ebebeb 70%,#ebebeb 100%);
+    background: linear-gradient(90deg, #54be90 0%,#54be90 70%,$light-grey 70%,$light-grey 100%);
 }
 .bar_green60 {
-    background: linear-gradient(90deg, #54be90 0%,#54be90 60%,#ebebeb 60%,#ebebeb 100%);
+    background: linear-gradient(90deg, #54be90 0%,#54be90 60%,$light-grey 60%,$light-grey 100%);
 }
 .bar_green50 {
-    background: linear-gradient(90deg, #54be90 0%,#54be90 50%,#ebebeb 50%,#ebebeb 100%);
+    background: linear-gradient(90deg, #54be90 0%,#54be90 50%,$light-grey 50%,$light-grey 100%);
 }

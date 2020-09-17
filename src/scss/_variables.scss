@@ -1,1 +1,13 @@
 $green-color: #54be90;
+$light-grey: #ebebeb;
+$dark-grey: #444444;
+
+.logos {
+    display: flex;
+    &__item {
+        margin: 3em;
+            img {
+            width: 5em;
+            }
+        }
+}

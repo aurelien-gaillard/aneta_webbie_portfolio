@@ -26,7 +26,7 @@ li {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #444444;
+    background-color: $dark-grey;
 }
 li a{
     display: block;
@@ -35,10 +35,10 @@ li a{
     line-height: 3em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #ebebeb;
+    color: $light-grey;
 }
 
 li a:hover {
     background-color: $green-color;
-    color: #444444;
+    color: $dark-grey;
 }

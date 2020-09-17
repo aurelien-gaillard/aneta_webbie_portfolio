@@ -2,7 +2,9 @@
 @import 'header';
 @import 'my-skills';
 @import 'my-portfolio';
+@import 'about-me.scss';
 @import 'contact-me';
+@import 'footer';
 
 * {
     box-sizing: border-box;
@@ -54,13 +56,13 @@ h2 {
 .intro_text {
     background-color: #ebebeb;
     font-size: 1.5em;
-    color: #444444;
+    color: $dark-grey;
 }
 .intro_text p {
     margin: 3.5em auto;
     text-align: center;
     width: 70%;
-    color: #444444;
+    color: $dark-grey;
 }
 
 .what_is_proposed {
@@ -80,7 +82,7 @@ h2 {
 .round_grey {
     width: 7em;
     height: 7em;
-    background-color: #ebebeb;
+    background-color: $light-grey;
     border-radius: 50%;
     position: relative;
     bottom: 3.5em;
@@ -97,7 +99,7 @@ h2 {
 }
 
 .button {
-    background-color: #ebebeb;
+    background-color: $light-grey;
     display: flex;
     justify-content: center;
     padding-bottom: 0.5em;
@@ -109,53 +111,14 @@ h2 {
     color: white;
     text-decoration: none;
     border-radius: 0.2em;
-    box-shadow: 0.2em 0.2em #444444;
+    box-shadow: 0.2em 0.2em $dark-grey;
 }
 
-.about_me {
-    background-color: #ebebeb;
-    padding-bottom: 5em;
-}
-.main_about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.main_about .photo {
-    width: 20em;
-    height: 20em;
-    background-image: url(/img/pit-bull.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    margin-right: 10%;
-
-}
-.main_about .right_container {
-    width: 40%;
-    color :#444444;
-}
-
-.main_about span {
-    border-bottom: 0.3em solid #54be90;
-}
-
-.get_in_touch {
-    font-size: 1.5em;
-    font-weight: 700;
-}
-
-.main_about .button {
-    justify-content: flex-start;
-}
-.main_about .button a {
-    width: 50%;
-}
 
 .find_me_here {
     background-color: #232323;
-    color: #ebebeb;
+    color: $light-grey;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -165,49 +128,4 @@ h2 {
 .find_me_here h3 {
     font-size: 2em;
     margin-top: 2em;
-}
-
-.logos {
-    display: flex;
-}
-
-.logos .item {
-    margin: 3em;
-}
-.logos .item img{
-    width: 5em;
-}
-
-
-footer {
-    background-color: #ebebeb;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3em 0;
-}
-
-.greetings {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.greetings .bar {
-    width: 20vw;
-    height: 0.5em;
-    background-color: $green-color;
-}
-
-.greetings .text {
-    font-size: 3em;
-    font-weight: 900;
-    margin: 0.4em;
-}
-
-footer .logos .item {
-    margin: 1em;
-}
-footer .logos .item img{
-    width: 3em;
 }

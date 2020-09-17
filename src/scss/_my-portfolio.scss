@@ -19,23 +19,28 @@
     padding: 0.4em;
     display: flex;
     flex-direction: column;
-}
-.portfolio .item.major {
-    background-color: black;
-}
 
-.portfolio .photo {
-    height: 6em;
-    background-color: #ebebeb;
-    margin-bottom: 0.4em;
-}
-.portfolio .description {
-    background-color: #ebebeb;
-    text-align: center;
-    padding: 0.5em 1em;
-}
-.portfolio .tech_stack {
-    background-color: #ebebeb;
-    font-weight: 700;
-    padding-left: 0.5em;
+    @media (max-width:600px) {
+        width: 80%;
+    }
+
+    &__photo {
+        height: 6em;
+        background-color: $light-grey;
+        margin-bottom: 0.4em;
+    }
+    &__description {
+        background-color: $light-grey;
+        text-align: center;
+        padding: 0.5em 1em;
+    }
+    &__tech_stack {
+        background-color: $light-grey;
+        font-weight: 700;
+        padding-left: 0.5em;
+    }
+    &--major {
+        background-color: black;
+    }
+
 }

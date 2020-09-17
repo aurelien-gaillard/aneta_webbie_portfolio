@@ -1,7 +1,7 @@
 
 .contact_me {
     background-color: $green-color;
-    color: #ebebeb;
+    color: $light-grey;
 }
 
 form {
@@ -22,7 +22,7 @@ input {
     background-color: $green-color;
 }
 input::placeholder {
-    color: #ebebeb;
+    color: $light-grey;
     font-size: 1.2em;
 }
 
@@ -38,7 +38,7 @@ textarea {
 }
 
 input[type=button] {
-    color: #ebebeb;
+    color: $light-grey;
     background-color: #232323;
     font-size: 1.2em;
     font-weight: 700;

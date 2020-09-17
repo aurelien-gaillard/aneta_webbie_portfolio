@@ -1,0 +1,26 @@
+footer {
+    font-size: .6em;
+    background-color: $light-grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 0;
+}
+
+.greetings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greetings .bar {
+    width: 20vw;
+    height: 0.8em;
+    background-color: $green-color;
+}
+
+.greetings .text {
+    font-size: 3em;
+    font-weight: 900;
+    margin: 0.4em;
+}
