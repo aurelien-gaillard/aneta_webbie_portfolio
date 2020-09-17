@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 7em;
+}
+
+header .logo {
+    height: 5em;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+ol {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #444444;
+}
+li a{
+    display: block;
+    width: 8em;
+    height: 3em;
+    line-height: 3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+li a:hover {
+    background-color: $green-color;
+    color: #444444;
+}

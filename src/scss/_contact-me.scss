@@ -1,0 +1,48 @@
+
+.contact_me {
+    background-color: $green-color;
+    color: #ebebeb;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form .row {
+    display: flex;
+    width: 90%;
+}
+input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid white;
+    margin: 0.7em;
+    padding: 0.8em 0.1em;
+    background-color: $green-color;
+}
+input::placeholder {
+    color: #ebebeb;
+    font-size: 1.2em;
+}
+
+label {
+    font-size: 1.2em;
+    margin: .5em;
+}
+textarea {
+    width: 100%;
+    height: 8em;
+    border-radius: 0.5em;
+    border: 0;
+}
+
+input[type=button] {
+    color: #ebebeb;
+    background-color: #232323;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 1em 0;
+    border: 0;
+    border-radius: 0.3em;
+}
